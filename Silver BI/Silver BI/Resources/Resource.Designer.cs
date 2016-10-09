@@ -60,8 +60,20 @@ namespace Silver_BI
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int textView1 = 2131034112;
+			// aapt resource value: 0x7f060004
+			public const int btnLogin = 2131099652;
+			
+			// aapt resource value: 0x7f060000
+			public const int textView1 = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int textView2 = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int txtCpf = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int txtPassword = 2131099651;
 			
 			static Id()
 			{
@@ -77,7 +89,10 @@ namespace Silver_BI
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Login = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -92,11 +107,38 @@ namespace Silver_BI
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f04000a
+			public const int ApplicationName = 2130968586;
+			
+			// aapt resource value: 0x7f040009
+			public const int Hello = 2130968585;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int error_no_bluetooth_enabled = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int error_no_bluetooth_le = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int error_no_location_permission = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int requesting_location_access = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int requesting_location_access_cancel = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int requesting_location_access_ok = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int requesting_location_access_rationale = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int requesting_location_permission = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int requesting_location_permission_rationale = 2130968584;
 			
 			static String()
 			{
@@ -104,6 +146,22 @@ namespace Silver_BI
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Theme_Transparent = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
